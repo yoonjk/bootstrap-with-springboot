@@ -26,4 +26,14 @@ public class WebAppContoller {
 
         return "index";
     }
+    
+    @RequestMapping("/color")
+    public String color(Model model) {
+    	return "utilities-color";
+    }
+    
+    @RequestMapping("/buttons")
+    public String buttons(Model model) {
+    	return "buttons";
+    }
 }
